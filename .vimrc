@@ -41,3 +41,5 @@ syntax enable
 
 "End dein Scripts-------------------------
 
+imap <C-g> <esc>
+
