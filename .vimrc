@@ -20,6 +20,7 @@ if dein#load_state('~/.vim/dein/')
 
   call dein#add('derekwyatt/vim-scala')
   call dein#add('davidhalter/jedi-vim')
+  call dein#add('scrooloose/nerdtree')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
