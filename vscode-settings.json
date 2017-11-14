@@ -1,0 +1,14 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "boundary",
+    "window.zoomLevel": 1,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/*.meta": true
+    }
+}
