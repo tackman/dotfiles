@@ -22,6 +22,7 @@ if dein#load_state('~/.vim/dein/')
   call dein#add('davidhalter/jedi-vim')
   call dein#add('scrooloose/nerdtree')
   call dein#add('fatih/vim-go')
+  call dein#add('tpope/vim-fireplace')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -45,5 +46,5 @@ syntax enable
 imap <C-g> <esc>
 map <C-l> gt
 map <C-h> gT
-map <C-n> :NERDTreeToggle<CR>
+map <Tab> :NERDTreeToggle<CR>
 
