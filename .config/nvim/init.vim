@@ -50,3 +50,4 @@ map <C-l> gt
 map <C-h> gT
 map <C-n> :NERDTreeToggle<CR>
 
+tnoremap <silent> <C-g> <C-\><C-n>
