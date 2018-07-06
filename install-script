@@ -1,0 +1,25 @@
+git clone git@github.com:tackman/dotfiles.git
+ln -s dotfiles/.config/ .config
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh ./installer.sh ~/.cache/dein
+
+sudo mv /usr/bin/vim /usr/bin/vim-legacy
+sudo ln -s /usr/bin/nvim /usr/bin/vim
+
+sudo apt install openjdk-8-jdk-headless
+echo "export PATH=$PATH:~/bin" >> ~/.bashrc
+
+
+curl -O https://download.clojure.org/install/linux-install-1.9.0.381.sh
+chmod +x linux-install-1.9.0.381.sh
+sudo ./linux-install-1.9.0.381.sh
+
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update
+sudo apt install neovim
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo apt install nodejs
+
+sudo npm install -g lumo-cljs --unsafe-perm
