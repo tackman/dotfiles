@@ -59,6 +59,9 @@ Each entry is either:
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
 
+; following configrations are from:
+; https://masatoi.github.io/2017/05/11/hy-tutorial#emacs%E3%81%AEhy-mode
+
 (autoload 'hy-mode "hy-mode"
   "Mode for editing Hylang source files"
   t)
