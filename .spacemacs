@@ -320,7 +320,12 @@ you should place your code here."
 
   (setq-default js2-basic-offset 2)
   (setq-default js-indent-level 2)
-)
+
+  (define-key evil-normal-state-map (kbd "SPC (") 'sp-wrap-round)
+  (define-key evil-normal-state-map (kbd "SPC )") 'sp-unwrap-sexp)
+  (define-key evil-normal-state-map (kbd "SPC [") 'sp-wrap-square)
+  (define-key evil-normal-state-map (kbd "SPC ]") 'sp-unwrap-sexp)
+  )
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
