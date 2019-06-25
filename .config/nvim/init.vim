@@ -24,6 +24,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('fatih/vim-go')
   call dein#add('vim-scripts/LargeFile')
   call dein#add('kassio/neoterm')
+  call dein#add('tsukimizake/vim-hy')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
@@ -51,3 +52,5 @@ map <C-h> gT
 map <C-n> :NERDTreeToggle<CR>
 
 tnoremap <silent> <C-g> <C-\><C-n>
+
+colo morning
