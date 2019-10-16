@@ -24,7 +24,9 @@ if dein#load_state('~/.cache/dein')
   call dein#add('fatih/vim-go')
   call dein#add('vim-scripts/LargeFile')
   call dein#add('kassio/neoterm')
-  call dein#add('tsukimizake/vim-hy')
+  call dein#add('vim-scripts/slimv')
+  call dein#add('frigoeu/psc-ide-vim')
+  call dein#add('purescript-contrib/purescript-vim')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
@@ -37,6 +39,11 @@ endif
 " Required:
 filetype plugin indent on
 syntax enable
+
+" from purescript-vim
+" syntax on
+filetype on
+" filetype plugin indent on
 
 " If you want to install not installed plugins on startup.
 "if dein#check_install()
@@ -52,5 +59,3 @@ map <C-h> gT
 map <C-n> :NERDTreeToggle<CR>
 
 tnoremap <silent> <C-g> <C-\><C-n>
-
-colo morning
